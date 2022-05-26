@@ -1,8 +1,12 @@
+import Navbar from "./components/Navbar";
+import { UserPanel } from "./components/UserPanel";
+
 function App() {
   return (
-    <div>
-      Hello World
-    </div>
+    <>
+      <Navbar />
+      <UserPanel />
+    </>
   );
 }
 
