@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { CurrentUser } from "./CurrentUser";
 import { User } from "./User";
 import Data from "../data";
-import { Grid, Item } from "@mui/material";
+import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
 
 const API_URL =
@@ -14,9 +14,9 @@ export const UserPanel = () => {
 
   useEffect(() => {
     (async function () {
-      // const res = await fetch(API_URL);
-      // const data = await res.json();
-      const data = Data;
+      const res = await fetch(API_URL);
+      const data = await res.json();
+      // const data = Data;
 
       data.results.map((obj, id) => (obj.id = id));
       setUsers(data.results);

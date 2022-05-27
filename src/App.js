@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { UserPanel } from "./components/UserPanel";
-import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 let lightTheme = createTheme({
   palette: {
