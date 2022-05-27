@@ -22,8 +22,9 @@ export const User = ({
           <Typography sx={{ fontSize: 14 }} color={selected ? 'text.select' : 'text.secondary'} gutterBottom>
             {gender} ⸱ {nat}
           </Typography>
-          <Typography color={selected ? 'text.select' : 'text.primary'} variant="h5" component="div" sx={{ mb: 1, fontWeight: '700' }}>
-            {title + " " + first + " " + last}
+          <Typography color={selected ? 'text.select' : 'text.primary'} variant="h5"
+            component="div" sx={{ mb: 1, fontWeight: '700' }}>
+              {title + " " + first + " " + last}
           </Typography>
           <Typography color={selected ? 'secondary.light': 'secondary.main'} variant="body2">{email}</Typography>
         </CardContent>
