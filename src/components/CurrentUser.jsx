@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const CurrUser = () => {
+export const CurrentUser = () => {
   return (
-    <div>CurrUser</div>
+    <div>CurrentUser</div>
   )
 }
