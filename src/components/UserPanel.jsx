@@ -25,11 +25,11 @@ export const UserPanel = () => {
 
   return (
     <Box sx={{p: 5}}>
-      {current && <CurrentUser user={users[current - 1]} />}
-      <Grid container spacing={2}>
+      {current !== null && <CurrentUser user={users[current]} />}
+      <Grid container spacing={2} justifyContent='center'>
         {users.map((user) => (
-          <Grid item sm={6} md={4}>
-            <User key={user.id} user={user} setCurrent={setCurrent} />
+          <Grid item key={user.id} sm={6} md={4}>
+            <User user={user} current={current} setCurrent={setCurrent} />
           </Grid>
         ))}
       </Grid>
