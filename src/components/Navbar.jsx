@@ -31,6 +31,7 @@ const Navbar = () => {
         background: 'transparent',
         color: 'black',
         boxShadow: 'none',
+        mb: '3rem'
     }}>
       <Container maxWidth="xl">
         {/* Mobile first */}
@@ -56,9 +57,6 @@ const Navbar = () => {
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
             >
@@ -100,7 +98,6 @@ const Navbar = () => {
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
@@ -111,14 +108,15 @@ const Navbar = () => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
             {pages.map((page) => (
-              <Button
+                <Button
                 variant='text'
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'inherit', display: 'block', }}
+                sx={{ my: 2, color: 'inherit', display: 'block', 
+                  textDecoration: (page === 'Product'? 'underline #E16259 0.15rem': 'none')
+                }}
               >
                 {page}
-                <Box sx={{background: 'black', height: '0.15rem', width: '90%', margin: 'auto', borderRadius: '5rem'}}/>
               </Button>
             ))}
           </Box>
@@ -128,3 +126,4 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+
