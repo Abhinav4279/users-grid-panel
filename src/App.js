@@ -18,11 +18,11 @@ let lightTheme = createTheme({
   }
 });
 
-let darkTheme = createTheme({
-  palette: {
-    mode: 'dark'
-  }
-});
+// let darkTheme = createTheme({
+//   palette: {
+//     mode: 'dark'
+//   }
+// });
 
 function App() {
   return (

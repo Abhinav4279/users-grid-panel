@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CurrentUser } from "./CurrentUser";
 import { User } from "./User";
-import Data from "../data";
+// import Data from "../data";
 import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
 
