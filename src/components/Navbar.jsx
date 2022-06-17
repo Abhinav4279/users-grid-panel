@@ -48,7 +48,7 @@ const Navbar = () => {
               textDecoration: 'none',
             }}
           >
-            YourChallenge
+            RandomUsers
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
