@@ -1,10 +1,14 @@
 # users-grid-panel
-![image](https://user-images.githubusercontent.com/54229503/170725844-7f9aba9e-b3b0-47b2-80d1-dfecfcc8f86e.png)
-
+![Screenshot from 2022-06-24 11-48-19](https://user-images.githubusercontent.com/54229503/175474911-c5b9cd3c-25dc-4c79-b273-0d36c74cac1a.png)
 ---
 \
 \
-![image](https://user-images.githubusercontent.com/54229503/170726114-9da6e1a9-32fc-4cb9-8c89-6a57ae33597d.png)
+![Screenshot from 2022-06-24 11-49-54](https://user-images.githubusercontent.com/54229503/175474976-53fb5a0d-4059-44ab-a476-6a435340439e.png)
+---
+\
+\
+![Screenshot from 2022-06-24 11-49-10](https://user-images.githubusercontent.com/54229503/175475014-caa6f32c-aa40-4f37-a49e-39cc270a411b.png)
+
 
 ## Installation
 `git clone https://github.com/Abhinav4279/users-grid-panel.git`\
